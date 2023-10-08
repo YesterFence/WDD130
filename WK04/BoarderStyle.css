@@ -1,0 +1,61 @@
+/* 
+:link
+:visited
+:active
+:hover
+ */
+
+
+ a:link, a:visited
+ {
+    color: salmon;
+ }
+
+ a:hover
+ {
+    color: purple;
+    text-decoration: none;
+ }
+
+
+
+* 
+{
+    border: 1px solid;
+}
+
+/* li (Links) all will be red */
+li
+{
+    background-color: red;
+    /* display: inline; */
+    display: inline-block;
+    width: 100px;
+    font-size: ;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.banner
+{
+    width: 100%;
+    /* max-width: 760px; */
+    /* object-fit: cover; */
+}
+.active 
+{
+    color: white
+}
+
+.green {
+    background-color: green;
+}
+
+.width50
+{
+    width: 50vw;
+    /* width: 50%; */
+}

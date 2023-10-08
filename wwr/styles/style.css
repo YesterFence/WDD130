@@ -1,0 +1,70 @@
+body
+{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fcfbfb;
+}
+
+header
+{
+    background-color: rgba(20,30,13, .7);
+}
+
+footer
+{
+    background-color: rgba(20,30,13, .7);
+}
+footer p
+{
+    font-size: 1.2em;
+}
+
+
+footer p a:hover
+{
+    text-decoration: underline;
+}
+
+.msg
+{
+    background-color: rgba(20,30,13, .7);
+}
+
+nav a
+{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    background-color: black;
+    color: #d9c2a3;
+}
+
+p
+{
+    margin: 35px;
+}
+
+#background
+{
+    height: 725px;
+    background-color: beige;
+}
+
+div
+{
+    text-align: center;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.icon
+{
+    width: 80px;
+}
