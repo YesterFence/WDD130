@@ -1,0 +1,29 @@
+https://codepen.io/matkat/pen/EKaNZg
+
+Flexbox
+
+float
+
+inline-block
+
+position
+    relative, absolute[sticks with the website], fixed[sticks with the screen]
+    left, top, right, bottom
+
+.
+
+grid-template-columns: 1fr 1fr;
+    adds a column to the grid
+    with each 1fr, we get another column
+
+.
+
+square within a square
+    <div class="yellow" >
+    <div class="purple" ></div></div>
+  
+    <div class="blue" ></div>
+.
+
+CSS Grid
+Margin

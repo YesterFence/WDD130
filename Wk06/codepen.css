@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .content {
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+     
+  }
+  
+  .green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+    /* 
+    position: fixed;
+    top: 50px;
+    left: 50px; 
+    */
+   
+  }
+  .yellow {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+   grid-column: 1/4;
+   grid-row: 2/3;
+     z-index: 2;
+    
+  
+  }
+  .purple{
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  
+  }
+  .blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/2;
+  grid-row: 2/3
+    
+  }
+  
