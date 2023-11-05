@@ -29,6 +29,19 @@ Fonts are separated by a | */
   --nav-hover-background-color: #FF6E37;
 }
 
+/* #hero-img
+{
+  display: block;
+  margin: 0 auto;
+} */
+
+#page-pic
+{
+  width:100%;
+  max-width:500px;
+}
+
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
