@@ -1,0 +1,134 @@
+body
+{
+    background-color: #fcfbfb;
+    max-width: 1600px;
+    margin: 0 auto;
+    /* padding: 0 auto; */
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    
+}
+
+img
+{
+    max-width: 100%;
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgba(20,30,13, .7); 
+}
+
+#logo_link
+{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+nav a
+{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 60px;
+    /* margin-top: 1em; */
+}
+nav a:hover
+{
+    background-color: black;
+    color: #d9c2a3;
+}
+
+
+.home-grid
+{
+    display: grid;
+    /* border: 5px solid #6f7364; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 1600px;
+    max-height: 60em;
+    padding: 1em;   
+}
+
+section
+{
+    /* border: 5px solid #6f7364; */
+}
+
+.salmon-river
+{
+    padding: 2em;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    max-block-size: 25em;
+}
+.river-one
+{
+    border: 10px solid #d9c2a3;
+    width: 95%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    align-self: center;
+}
+.desolation-river
+{
+    padding: 1em;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.river-two
+{
+    border: 10px solid #d9c2a3;
+    width: 95%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    align-self: center;
+}
+.grand-river
+{
+    padding: 2em;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.river-three
+{
+    border: 10px solid #d9c2a3;
+    width: 95%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    align-self: center;
+}
+
+
+footer
+{
+    background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p
+{
+    font-size: 1.2em;
+    text-align: left;
+    color: #d9c2a3;
+}
+footer .social img
+{
+    padding: 15px;
+}
+footer p a:hover
+{
+    text-decoration: underline;
+}

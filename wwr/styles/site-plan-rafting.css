@@ -201,6 +201,59 @@ footer p a:hover
     text-align: center;
 }
 
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a
+{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 60px;
+}
+
+nav a:hover
+{
+    background-color: black;
+    color: #d9c2a3;
+}
+
+p
+{
+    margin: 35px;
+}
+
+#background
+{
+    height: 725px;
+    background-color: beige;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+div
+{
+    text-align: center;
+}
+
+div.social
+{
+    text-align: left;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.icon
+{
+    width: 80px;
+}
+
 @media screen and (max-width: 900px)
 {
     #hero, .home-grid
@@ -258,57 +311,4 @@ footer p a:hover
         display: block;
         margin: 0 auto;
     }
-}
-
-nav
-{
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a
-{
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-    padding: 35px;
-}
-
-nav a:hover
-{
-    background-color: black;
-    color: #d9c2a3;
-}
-
-p
-{
-    margin: 35px;
-}
-
-#background
-{
-    height: 725px;
-    background-color: beige;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
-
-div
-{
-    text-align: center;
-}
-
-div.social
-{
-    text-align: left;
-}
-
-img
-{
-    max-width: 100%;
-}
-
-.icon
-{
-    width: 80px;
 }

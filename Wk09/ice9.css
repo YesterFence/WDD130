@@ -1,0 +1,70 @@
+*
+{
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+body
+{
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* find an image in post */
+/* < means find chlid class */
+.post > img
+{
+    width: 100%;
+}
+
+.post_heading
+{
+    text-align: center;
+}
+
+.post_heading > p
+{
+    color: blue;
+    margin-bottom: 0.2em;
+    font-size: 0.8em;
+}
+
+.post_heading > h2
+{
+    margin: 0;
+}
+
+.post_body
+{
+    padding: 1em;
+}
+
+.post_footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: white;
+    background-color: #124f63;
+    justify-items: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.post_footer > p
+{
+    display: grid;
+    border-right: 1px solid white;
+    margin: 0;
+    padding: 1em;
+}
+
+.post_footer span
+{
+    
+}
