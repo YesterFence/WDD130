@@ -1,10 +1,31 @@
+:root
+{
+    --primary-color: #325871   ;
+    --secondary-color: #FFC66C ;
+    --accent1-color: #BB0A21;
+    --accent2-color: #FF6E37;
+
+    --heading-font: "Secular One";
+    --paragraph-font: Georgia, serif;
+
+    --headline-color-on-white: #325871;  /* headlines on a white background */ 
+    --headline-color-on-color: #FFEDE5; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #325871; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #FFEDE5; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #325871;
+    --nav-link-color: #BB0A21;
+    --nav-background-color: #FFC66C;
+    --nav-hover-link-color: #FFEDE5;
+    --nav-hover-background-color: #FF6E37;
+}
+
 body
 {
-    /* display: grid; */
-    background-color: #fcfbfb;
+    display: grid;
+    background-color: var(--nav-background-color);
     max-width: 1600px;
     margin: 0 auto;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: var(--paragraph-font);
     font-size: 22px;
     
 }
@@ -16,12 +37,14 @@ img
 header
 {
     display: grid;
+    border: 5px solid var(--nav-link-color);
     grid-template-columns: 150px auto;
-    background-color: rgba(20,30,13, .7); 
+    background-color: rgba(20,30,13, .7);
+    /* background-color: var(--secondary-color); */
 }
 #logo_link
 {
-    padding-top: 5px;
+    padding-left: 1em;
     justify-self: center;
     align-self: center;
 }
@@ -38,20 +61,27 @@ nav a
     padding: 60px;
     /* margin-top: 1em; */
 }
-nav a:hover
+nav a:hover 
 {
-    background-color: black;
-    color: #d9c2a3;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+nav a:link, nav a:visited 
+{
+    color: var(--nav-link-color);
 }
 
 main
 {
-    padding-top: 2em;
-    /* color: #d9c2a3; */
+  padding-top: 2em;
 }
 
+
 #feedback {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    /* background-color: var(--headline-color-on-color); */
+    background-color: var(--headline-color-on-white);
+    color: var(--nav-background-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -71,47 +101,44 @@ form {
   width: 400px;
   /* Form outline */
   padding: 1em;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  border: 5px solid var(--accent1-color);
+  background-color: var(--paragraph-background-color);
+  color: var(--nav-background-color);
   border-radius: 1em;
 }
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 form li + li {
   margin-top: 1em;
 }
-
 label {
   /* Uniform size & alignment */
   display: inline-block;
   width: 90px;
   text-align: right;
 }
-
 input,
 textarea {
   /* To make sure that all text fields have the same font settings
       By default, textareas have a monospace font */
   font: 1em sans-serif;
-
   /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
-
   /* Match form field borders */
-  border: 1px solid #999;
+  /* border: 1px solid #999; */
+  border: 5px solid var(--primary-color);
+  background-color: var();
 }
-
 input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
   border-color: #000;
 }
-
 textarea {
   /* Align multiline text fields with their labels */
   vertical-align: top;
@@ -119,21 +146,20 @@ textarea {
   /* Provide space to type some text */
   height: 5em;
 }
-
 .button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
 }
-
 button {
   /* This extra margin represent roughly the same space as the space
       between the labels and their text fields */
   margin-left: 0.5em;
 }
 
-
 footer
 {
+    display: grid;
+    border: 5px solid var(--nav-link-color);
     background-color: rgba(20,30,13, .7);
     padding: 25px 50px;
     margin-top: 75px;
