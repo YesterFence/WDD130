@@ -1,0 +1,53 @@
+section 
+{
+    width: 50%;
+    border: 1px solid;
+}
+p:nth-of-type(1) 
+{
+    text-align: left;
+}  
+p:nth-of-type(2) 
+{
+    text-align: center;
+}
+p:nth-of-type(3) 
+{
+    text-align: right;
+}
+
+.block1
+{
+    /*Block 1 should be left-aligned*/
+    margin-right: 0 auto;
+}
+
+.block2
+{
+    /* Block 2 should be center-aligned */
+    margin: auto;
+}
+
+.block3
+{
+    /* Block 3 should be right-aligned */
+    margin-left: auto;
+}
+
+.block4
+{
+    /* Block 4 should be center-aligned */
+    margin: auto;
+}
+.block4 p:nth-of-type(1)
+{
+    text-align: right;
+}
+.block4 p:nth-of-type(2)
+{
+    text-align: center;
+}
+.block4 p:nth-of-type(3)
+{
+    text-align: left;
+}
