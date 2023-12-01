@@ -196,11 +196,29 @@ section
 .parmesan-cheese, .pepperjack-cheese, .swiss-cheese, 
 .pink-cheese, .blue-cheese, .unprocessed-cheese
 {
+    position: relative;
     border: 10px solid var(--accent2-color);
     width: 95%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     align-self: center;
+}
+.text-block
+{
+    position: relative;
+    bottom: 145px;
+    right: -20px;
+    width: auto;
+    background: fixed;
+    background-color: var(--accent1-color);
+    color: var(--headline-color-on-color);
+    font-size: x-large;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
+.text-block
+{
+    width: 120px;
 }
 
 /* History Main */
